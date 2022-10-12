@@ -1,0 +1,9 @@
+[1] on image boxes:
+     position :absolute
+     when i put top 100% then bottom:0 on hover it doesn't work !
+[2] Position :relative :
+     give the element z-index :auto which means the last element in html will 
+     be on the top (biggest z-index layer)
+[3] flex:
+     align-items:(by default) streatch => if thers is img the dimention will missed up 
+     to avoid this problem use align-items:center 
